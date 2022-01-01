@@ -1,5 +1,10 @@
 # cvzone 1.5.0
 # mediapipe 0.8.7
+# TODO: 1. add a flag=false to each part if the part is in it's place change it to true,
+#           it is not possible to drag and drop the image
+# TODO: 2. add a module to divide any given photo to 9 pisces.
+#
+############################################################################################
 
 import cv2
 from cvzone.HandTrackingModule import HandDetector
@@ -98,7 +103,7 @@ class DragImg():
 
 
 # img1 = cv2.imread("ImagesJPG/1.jpg")
-#img1 = cv2.imread("Images_puzzle/puzzle_map.png", cv2.IMREAD_UNCHANGED)
+# img1 = cv2.imread("Images_puzzle/puzzle_map.png", cv2.IMREAD_UNCHANGED)
 # ox, oy = 500, 200
 path = "Images_puzzle"
 myList = os.listdir(path)
@@ -112,7 +117,7 @@ solvedList = []
 #         imgType = "png"
 #     else:
 #         imgType = "jpg"
-
+# TODO: Make it modular
 imgMap = cv2.imread("Images_puzzle/map.png", cv2.IMREAD_UNCHANGED)
 listImg.append(DragImg("Images_puzzle/puzzle_01.jpg",[170,20],"jpg"))
 listImg.append(DragImg("Images_puzzle/puzzle_09.jpg",[390,20],"jpg"))
