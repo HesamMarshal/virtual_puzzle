@@ -156,7 +156,6 @@ while True:
 
     if hands:
         lmList = hands[0]['lmList']
-
         # cursor = lmList[8]
         # check if clicked
         length, info, img = detector.findDistance(lmList[8], lmList[12], img)
