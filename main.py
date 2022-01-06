@@ -1,8 +1,6 @@
 # cvzone 1.5.0
 # mediapipe 0.8.7
-# TODO: 1. add a flag=false to each part if the part is in it's place change it to true,
-#           it is not possible to drag and drop the image
-# TODO: 2. add a module to divide any given photo to 9 pisces.
+#
 #
 ############################################################################################
 
